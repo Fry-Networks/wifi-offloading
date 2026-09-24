@@ -6,10 +6,11 @@ os_version = "23.3.2"
 repo = "https://git.openwrt.org/openwrt/openwrt.git"
 tag = "v23.05.5"
 
-[[openwrt.feeds]]
-method = "src-git"
-name = "fry_os_feed"
-url = "https://github.com/Fry-Foundation/fry-os-feed.git"
+# DISABLED-by-oneshot-fryfoundation-20260924T045553Z: Fry-Foundation/fry-os-feed never existed (404), no Fry-Networks equivalent
+# [[openwrt.feeds]]
+# method = "src-git"
+# name = "fry_os_feed"
+# url = "https://github.com/Fry-Foundation/fry-os-feed.git"
 
 [[openwrt.feeds]]
 method = "src-git"
